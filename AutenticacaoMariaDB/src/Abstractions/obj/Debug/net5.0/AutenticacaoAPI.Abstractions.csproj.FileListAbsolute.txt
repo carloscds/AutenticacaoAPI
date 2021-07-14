@@ -1,0 +1,11 @@
+D:\CDS\git\Github\carloscds\AutenticacaoAPI\AutenticacaoMariaDB\src\AutenticacaoAPI.Abstract\bin\Debug\net5.0\AutenticacaoAPI.Abstractions.deps.json
+D:\CDS\git\Github\carloscds\AutenticacaoAPI\AutenticacaoMariaDB\src\AutenticacaoAPI.Abstract\bin\Debug\net5.0\AutenticacaoAPI.Abstractions.dll
+D:\CDS\git\Github\carloscds\AutenticacaoAPI\AutenticacaoMariaDB\src\AutenticacaoAPI.Abstract\bin\Debug\net5.0\ref\AutenticacaoAPI.Abstractions.dll
+D:\CDS\git\Github\carloscds\AutenticacaoAPI\AutenticacaoMariaDB\src\AutenticacaoAPI.Abstract\bin\Debug\net5.0\AutenticacaoAPI.Abstractions.pdb
+D:\CDS\git\Github\carloscds\AutenticacaoAPI\AutenticacaoMariaDB\src\AutenticacaoAPI.Abstract\obj\Debug\net5.0\AutenticacaoAPI.Abstractions.GeneratedMSBuildEditorConfig.editorconfig
+D:\CDS\git\Github\carloscds\AutenticacaoAPI\AutenticacaoMariaDB\src\AutenticacaoAPI.Abstract\obj\Debug\net5.0\AutenticacaoAPI.Abstractions.AssemblyInfoInputs.cache
+D:\CDS\git\Github\carloscds\AutenticacaoAPI\AutenticacaoMariaDB\src\AutenticacaoAPI.Abstract\obj\Debug\net5.0\AutenticacaoAPI.Abstractions.AssemblyInfo.cs
+D:\CDS\git\Github\carloscds\AutenticacaoAPI\AutenticacaoMariaDB\src\AutenticacaoAPI.Abstract\obj\Debug\net5.0\AutenticacaoAPI.Abstractions.csproj.CoreCompileInputs.cache
+D:\CDS\git\Github\carloscds\AutenticacaoAPI\AutenticacaoMariaDB\src\AutenticacaoAPI.Abstract\obj\Debug\net5.0\AutenticacaoAPI.Abstractions.dll
+D:\CDS\git\Github\carloscds\AutenticacaoAPI\AutenticacaoMariaDB\src\AutenticacaoAPI.Abstract\obj\Debug\net5.0\ref\AutenticacaoAPI.Abstractions.dll
+D:\CDS\git\Github\carloscds\AutenticacaoAPI\AutenticacaoMariaDB\src\AutenticacaoAPI.Abstract\obj\Debug\net5.0\AutenticacaoAPI.Abstractions.pdb

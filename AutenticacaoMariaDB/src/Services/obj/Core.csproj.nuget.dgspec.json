@@ -1,0 +1,146 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\CDS\\git\\Github\\carloscds\\AutenticacaoAPI\\AutenticacaoMariaDB\\src\\Services\\Core.csproj": {}
+  },
+  "projects": {
+    "D:\\CDS\\git\\Github\\carloscds\\AutenticacaoAPI\\AutenticacaoMariaDB\\src\\AutenticacaoAPI.Dominio\\AutenticacaoAPI.Dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CDS\\git\\Github\\carloscds\\AutenticacaoAPI\\AutenticacaoMariaDB\\src\\AutenticacaoAPI.Dominio\\AutenticacaoAPI.Dominio.csproj",
+        "projectName": "AutenticacaoAPI.Dominio",
+        "projectPath": "D:\\CDS\\git\\Github\\carloscds\\AutenticacaoAPI\\AutenticacaoMariaDB\\src\\AutenticacaoAPI.Dominio\\AutenticacaoAPI.Dominio.csproj",
+        "packagesPath": "C:\\Users\\cds\\.nuget\\packages\\",
+        "outputPath": "D:\\CDS\\git\\Github\\carloscds\\AutenticacaoAPI\\AutenticacaoMariaDB\\src\\AutenticacaoAPI.Dominio\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\cds\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://10.0.0.20/Internos/NugetServer/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.5.21302.13\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\CDS\\git\\Github\\carloscds\\AutenticacaoAPI\\AutenticacaoMariaDB\\src\\Services\\Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CDS\\git\\Github\\carloscds\\AutenticacaoAPI\\AutenticacaoMariaDB\\src\\Services\\Core.csproj",
+        "projectName": "Core",
+        "projectPath": "D:\\CDS\\git\\Github\\carloscds\\AutenticacaoAPI\\AutenticacaoMariaDB\\src\\Services\\Core.csproj",
+        "packagesPath": "C:\\Users\\cds\\.nuget\\packages\\",
+        "outputPath": "D:\\CDS\\git\\Github\\carloscds\\AutenticacaoAPI\\AutenticacaoMariaDB\\src\\Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\cds\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://10.0.0.20/Internos/NugetServer/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\CDS\\git\\Github\\carloscds\\AutenticacaoAPI\\AutenticacaoMariaDB\\src\\AutenticacaoAPI.Abstract\\AutenticacaoAPI.Abstractions.csproj": {
+                "projectPath": "D:\\CDS\\git\\Github\\carloscds\\AutenticacaoAPI\\AutenticacaoMariaDB\\src\\AutenticacaoAPI.Abstract\\AutenticacaoAPI.Abstractions.csproj"
+              },
+              "D:\\CDS\\git\\Github\\carloscds\\AutenticacaoAPI\\AutenticacaoMariaDB\\src\\AutenticacaoAPI.Dominio\\AutenticacaoAPI.Dominio.csproj": {
+                "projectPath": "D:\\CDS\\git\\Github\\carloscds\\AutenticacaoAPI\\AutenticacaoMariaDB\\src\\AutenticacaoAPI.Dominio\\AutenticacaoAPI.Dominio.csproj"
+              },
+              "D:\\CDS\\git\\Github\\carloscds\\AutenticacaoAPI\\AutenticacaoMariaDB\\src\\AutenticacaoAPI.Infraestrutura\\AutenticacaoAPI.Infraestrutura.csproj": {
+                "projectPath": "D:\\CDS\\git\\Github\\carloscds\\AutenticacaoAPI\\AutenticacaoMariaDB\\src\\AutenticacaoAPI.Infraestrutura\\AutenticacaoAPI.Infraestrutura.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[10.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.5.21302.13\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

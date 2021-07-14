@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "dgSpecHash": "DmPDdzySHGq5O5IX9iMUhNlQzsizSrRYyLphdXwZ8nTQwqMe7vyX4yL1yPt7zS9bbM/upGMkxR4wbqEIONwahA==",
+  "success": false,
+  "projectFilePath": "D:\\CDS\\git\\Github\\carloscds\\AutenticacaoAPI\\AutenticacaoMariaDB\\src\\Services\\Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\cds\\.nuget\\packages\\fluentvalidation\\10.3.0\\fluentvalidation.10.3.0.nupkg.sha512",
+    "C:\\Users\\cds\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.8\\microsoft.aspnetcore.cryptography.internal.5.0.8.nupkg.sha512",
+    "C:\\Users\\cds\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.8\\microsoft.aspnetcore.cryptography.keyderivation.5.0.8.nupkg.sha512",
+    "C:\\Users\\cds\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\cds\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.0\\microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512",
+    "C:\\Users\\cds\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\cds\\.nuget\\packages\\microsoft.extensions.identity.core\\5.0.8\\microsoft.extensions.identity.core.5.0.8.nupkg.sha512",
+    "C:\\Users\\cds\\.nuget\\packages\\microsoft.extensions.identity.stores\\5.0.8\\microsoft.extensions.identity.stores.5.0.8.nupkg.sha512",
+    "C:\\Users\\cds\\.nuget\\packages\\microsoft.extensions.logging\\5.0.0\\microsoft.extensions.logging.5.0.0.nupkg.sha512",
+    "C:\\Users\\cds\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\cds\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
+    "C:\\Users\\cds\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'D:\\CDS\\git\\Github\\carloscds\\AutenticacaoAPI\\AutenticacaoMariaDB\\src\\AutenticacaoAPI.Abstract\\AutenticacaoAPI.Abstractions.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "D:\\CDS\\git\\Github\\carloscds\\AutenticacaoAPI\\AutenticacaoMariaDB\\src\\AutenticacaoAPI.Abstract\\AutenticacaoAPI.Abstractions.csproj",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'D:\\CDS\\git\\Github\\carloscds\\AutenticacaoAPI\\AutenticacaoMariaDB\\src\\AutenticacaoAPI.Infraestrutura\\AutenticacaoAPI.Infraestrutura.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "D:\\CDS\\git\\Github\\carloscds\\AutenticacaoAPI\\AutenticacaoMariaDB\\src\\AutenticacaoAPI.Infraestrutura\\AutenticacaoAPI.Infraestrutura.csproj",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
+}
