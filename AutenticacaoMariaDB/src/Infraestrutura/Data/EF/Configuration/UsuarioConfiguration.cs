@@ -17,7 +17,6 @@ namespace Infraestrutura.Data.EF.Configuration
                    .HasMaxLength(100);
             builder.Property(e => e.Senha)
                    .HasMaxLength(50);
-            builder.HasIndex(e => e.Key).IsUnique(false);
             builder.HasIndex(e => e.Email).IsUnique(true);
         }
     }

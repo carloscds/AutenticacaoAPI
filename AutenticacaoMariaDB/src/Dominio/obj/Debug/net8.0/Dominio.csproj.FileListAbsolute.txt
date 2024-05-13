@@ -1,0 +1,13 @@
+D:\cds\git\GitHub\carloscds\AutenticacaoAPI\AutenticacaoMariaDB\src\Dominio\bin\Debug\net8.0\Dominio.deps.json
+D:\cds\git\GitHub\carloscds\AutenticacaoAPI\AutenticacaoMariaDB\src\Dominio\bin\Debug\net8.0\Dominio.dll
+D:\cds\git\GitHub\carloscds\AutenticacaoAPI\AutenticacaoMariaDB\src\Dominio\bin\Debug\net8.0\Dominio.pdb
+D:\cds\git\GitHub\carloscds\AutenticacaoAPI\AutenticacaoMariaDB\src\Dominio\obj\Debug\net8.0\Dominio.csproj.AssemblyReference.cache
+D:\cds\git\GitHub\carloscds\AutenticacaoAPI\AutenticacaoMariaDB\src\Dominio\obj\Debug\net8.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+D:\cds\git\GitHub\carloscds\AutenticacaoAPI\AutenticacaoMariaDB\src\Dominio\obj\Debug\net8.0\Dominio.AssemblyInfoInputs.cache
+D:\cds\git\GitHub\carloscds\AutenticacaoAPI\AutenticacaoMariaDB\src\Dominio\obj\Debug\net8.0\Dominio.AssemblyInfo.cs
+D:\cds\git\GitHub\carloscds\AutenticacaoAPI\AutenticacaoMariaDB\src\Dominio\obj\Debug\net8.0\Dominio.csproj.CoreCompileInputs.cache
+D:\cds\git\GitHub\carloscds\AutenticacaoAPI\AutenticacaoMariaDB\src\Dominio\obj\Debug\net8.0\Dominio.sourcelink.json
+D:\cds\git\GitHub\carloscds\AutenticacaoAPI\AutenticacaoMariaDB\src\Dominio\obj\Debug\net8.0\Dominio.dll
+D:\cds\git\GitHub\carloscds\AutenticacaoAPI\AutenticacaoMariaDB\src\Dominio\obj\Debug\net8.0\refint\Dominio.dll
+D:\cds\git\GitHub\carloscds\AutenticacaoAPI\AutenticacaoMariaDB\src\Dominio\obj\Debug\net8.0\Dominio.pdb
+D:\cds\git\GitHub\carloscds\AutenticacaoAPI\AutenticacaoMariaDB\src\Dominio\obj\Debug\net8.0\ref\Dominio.dll

@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("API.Cadastros")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+af24d83892563bee02fdb3a490b31207cf4ea72d")]
 [assembly: System.Reflection.AssemblyProductAttribute("API.Cadastros")]
 [assembly: System.Reflection.AssemblyTitleAttribute("API.Cadastros")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

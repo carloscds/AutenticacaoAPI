@@ -1,36 +1,45 @@
 {
   "format": 1,
   "restore": {
-    "D:\\CDS\\git\\Github\\carloscds\\AutenticacaoAPI\\AutenticacaoMariaDB\\src\\API.Cadastros\\API.Cadastros.csproj": {}
+    "D:\\cds\\git\\GitHub\\carloscds\\AutenticacaoAPI\\AutenticacaoMariaDB\\src\\API.Cadastros\\API.Cadastros.csproj": {}
   },
   "projects": {
-    "D:\\CDS\\git\\Github\\carloscds\\AutenticacaoAPI\\AutenticacaoMariaDB\\src\\Abstractions\\Abstractions.csproj": {
+    "D:\\cds\\git\\GitHub\\carloscds\\AutenticacaoAPI\\AutenticacaoMariaDB\\src\\Abstractions\\Abstractions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CDS\\git\\Github\\carloscds\\AutenticacaoAPI\\AutenticacaoMariaDB\\src\\Abstractions\\Abstractions.csproj",
+        "projectUniqueName": "D:\\cds\\git\\GitHub\\carloscds\\AutenticacaoAPI\\AutenticacaoMariaDB\\src\\Abstractions\\Abstractions.csproj",
         "projectName": "Abstractions",
-        "projectPath": "D:\\CDS\\git\\Github\\carloscds\\AutenticacaoAPI\\AutenticacaoMariaDB\\src\\Abstractions\\Abstractions.csproj",
+        "projectPath": "D:\\cds\\git\\GitHub\\carloscds\\AutenticacaoAPI\\AutenticacaoMariaDB\\src\\Abstractions\\Abstractions.csproj",
         "packagesPath": "C:\\Users\\cds\\.nuget\\packages\\",
-        "outputPath": "D:\\CDS\\git\\Github\\carloscds\\AutenticacaoAPI\\AutenticacaoMariaDB\\src\\Abstractions\\obj\\",
+        "outputPath": "D:\\cds\\git\\GitHub\\carloscds\\AutenticacaoAPI\\AutenticacaoMariaDB\\src\\Abstractions\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages",
+          "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\cds\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://10.0.0.20/Internos/NugetServer/nuget": {},
+          "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "http://helix/NugetServer/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -38,11 +47,16 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.AspNetCore.Mvc.Core": {
               "target": "Package",
@@ -50,7 +64,7 @@
             },
             "Sodium.Core": {
               "target": "Package",
-              "version": "[1.2.3, )"
+              "version": "[1.3.5, )"
             }
           },
           "imports": [
@@ -59,7 +73,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -68,40 +83,49 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.5.21302.13\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300-preview.24203.14/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\CDS\\git\\Github\\carloscds\\AutenticacaoAPI\\AutenticacaoMariaDB\\src\\API.Cadastros\\API.Cadastros.csproj": {
+    "D:\\cds\\git\\GitHub\\carloscds\\AutenticacaoAPI\\AutenticacaoMariaDB\\src\\API.Cadastros\\API.Cadastros.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CDS\\git\\Github\\carloscds\\AutenticacaoAPI\\AutenticacaoMariaDB\\src\\API.Cadastros\\API.Cadastros.csproj",
+        "projectUniqueName": "D:\\cds\\git\\GitHub\\carloscds\\AutenticacaoAPI\\AutenticacaoMariaDB\\src\\API.Cadastros\\API.Cadastros.csproj",
         "projectName": "API.Cadastros",
-        "projectPath": "D:\\CDS\\git\\Github\\carloscds\\AutenticacaoAPI\\AutenticacaoMariaDB\\src\\API.Cadastros\\API.Cadastros.csproj",
+        "projectPath": "D:\\cds\\git\\GitHub\\carloscds\\AutenticacaoAPI\\AutenticacaoMariaDB\\src\\API.Cadastros\\API.Cadastros.csproj",
         "packagesPath": "C:\\Users\\cds\\.nuget\\packages\\",
-        "outputPath": "D:\\CDS\\git\\Github\\carloscds\\AutenticacaoAPI\\AutenticacaoMariaDB\\src\\API.Cadastros\\obj\\",
+        "outputPath": "D:\\cds\\git\\GitHub\\carloscds\\AutenticacaoAPI\\AutenticacaoMariaDB\\src\\API.Cadastros\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages",
+          "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\cds\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://10.0.0.20/Internos/NugetServer/nuget": {},
+          "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "http://helix/NugetServer/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\CDS\\git\\Github\\carloscds\\AutenticacaoAPI\\AutenticacaoMariaDB\\src\\Abstractions\\Abstractions.csproj": {
-                "projectPath": "D:\\CDS\\git\\Github\\carloscds\\AutenticacaoAPI\\AutenticacaoMariaDB\\src\\Abstractions\\Abstractions.csproj"
+              "D:\\cds\\git\\GitHub\\carloscds\\AutenticacaoAPI\\AutenticacaoMariaDB\\src\\Abstractions\\Abstractions.csproj": {
+                "projectPath": "D:\\cds\\git\\GitHub\\carloscds\\AutenticacaoAPI\\AutenticacaoMariaDB\\src\\Abstractions\\Abstractions.csproj"
               }
             }
           }
@@ -110,27 +134,32 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[5.0.8, )"
+              "version": "[8.0.4, )"
             },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
-              "version": "[1.10.9, )"
+              "version": "[1.20.1, )"
             },
             "NetDevPack.Security.JwtExtensions": {
               "target": "Package",
-              "version": "[5.0.1, )"
+              "version": "[8.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.1.4, )"
+              "version": "[6.5.0, )"
             }
           },
           "imports": [
@@ -139,16 +168,11 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[5.0.5, 5.0.5]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -157,7 +181,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.5.21302.13\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300-preview.24203.14/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

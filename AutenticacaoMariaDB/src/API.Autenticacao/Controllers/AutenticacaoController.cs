@@ -3,9 +3,6 @@ using Core.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
-using Microsoft.AspNetCore.Identity;
-using NetDevPack.Security.JwtSigningCredentials.Interfaces;
-using System.Threading.Tasks;
 using System.Security.Claims;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
@@ -14,6 +11,7 @@ using System.Linq;
 using Dominio;
 using Abstractions.Controller;
 using Abstractions.Common;
+using NetDevPack.Security.Jwt.Core.Interfaces;
 
 namespace API.Autenticacao.Controllers
 {
@@ -23,10 +21,10 @@ namespace API.Autenticacao.Controllers
     {
         private readonly ILogger<AutenticacaoController> _logger;
         private readonly IUsuarioService _usuarioService;
-        private readonly IJsonWebKeySetService _jwksService;
+        private readonly IJwtService _jwksService;
 
         public AutenticacaoController(IUsuarioService usuarioService,
-                                      IJsonWebKeySetService jwksService,
+                                      IJwtService jwksService,
                                       ILogger<AutenticacaoController> logger)
         {
             _usuarioService = usuarioService;
@@ -88,7 +86,7 @@ namespace API.Autenticacao.Controllers
 
         private ClaimsIdentity GetUserClaims(ICollection<Claim> claims, Usuario user)
         {
-            claims.Add(new Claim(JwtRegisteredClaimNames.Sub, user.Key.ToString()));
+            claims.Add(new Claim(JwtRegisteredClaimNames.Sub, user.Id.ToString()));
             claims.Add(new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()));
             claims.Add(new Claim(JwtRegisteredClaimNames.Nbf, ToUnixEpochDate(DateTime.UtcNow).ToString()));
             claims.Add(new Claim(JwtRegisteredClaimNames.Iat, ToUnixEpochDate(DateTime.UtcNow).ToString(), ClaimValueTypes.Integer64));
@@ -105,7 +103,7 @@ namespace API.Autenticacao.Controllers
                 ExpiresIn = TimeSpan.FromHours(1).TotalSeconds,
                 UserData = new UserData
                 {
-                    Id = user.Key.ToString(),
+                    Id = user.Id.ToString(),
                     Email = user.Email,
                     Claims = claims.Select(c => new UserClaims { Type = c.Type, Value = c.Value })
                 }
@@ -116,7 +114,7 @@ namespace API.Autenticacao.Controllers
         {
             var tokenHandler = new JwtSecurityTokenHandler();
             var currentIssuer = $"{ControllerContext.HttpContext.Request.Scheme}://{ControllerContext.HttpContext.Request.Host}";
-            var key = _jwksService.GetCurrent();
+            var key = _jwksService.GetCurrentSigningCredentials().GetAwaiter().GetResult();
             var token = tokenHandler.CreateToken(new SecurityTokenDescriptor
             {
                 Issuer = currentIssuer,
