@@ -568,11 +568,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\cds\\git\\GitHub\\carloscds\\AutenticacaoAPI\\AutenticacaoMariaDB\\src\\Dominio\\Dominio.csproj",
+      "projectUniqueName": "D:\\cds\\git\\github\\carloscds\\AutenticacaoAPI\\AutenticacaoMariaDB\\src\\Dominio\\Dominio.csproj",
       "projectName": "Dominio",
-      "projectPath": "D:\\cds\\git\\GitHub\\carloscds\\AutenticacaoAPI\\AutenticacaoMariaDB\\src\\Dominio\\Dominio.csproj",
+      "projectPath": "D:\\cds\\git\\github\\carloscds\\AutenticacaoAPI\\AutenticacaoMariaDB\\src\\Dominio\\Dominio.csproj",
       "packagesPath": "C:\\Users\\cds\\.nuget\\packages\\",
-      "outputPath": "D:\\cds\\git\\GitHub\\carloscds\\AutenticacaoAPI\\AutenticacaoMariaDB\\src\\Dominio\\obj\\",
+      "outputPath": "D:\\cds\\git\\github\\carloscds\\AutenticacaoAPI\\AutenticacaoMariaDB\\src\\Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages",

@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Dominio
-build_property.ProjectDir = D:\cds\git\GitHub\carloscds\AutenticacaoAPI\AutenticacaoMariaDB\src\Dominio\
+build_property.ProjectDir = D:\cds\git\github\carloscds\AutenticacaoAPI\AutenticacaoMariaDB\src\Dominio\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

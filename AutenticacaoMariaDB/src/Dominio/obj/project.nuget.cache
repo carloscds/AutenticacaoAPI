@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kaNLJuODPXM=",
+  "dgSpecHash": "UbUeqkikMIc=",
   "success": true,
-  "projectFilePath": "D:\\cds\\git\\GitHub\\carloscds\\AutenticacaoAPI\\AutenticacaoMariaDB\\src\\Dominio\\Dominio.csproj",
+  "projectFilePath": "D:\\cds\\git\\github\\carloscds\\AutenticacaoAPI\\AutenticacaoMariaDB\\src\\Dominio\\Dominio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cds\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\8.0.4\\microsoft.aspnetcore.cryptography.internal.8.0.4.nupkg.sha512",
     "C:\\Users\\cds\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\8.0.4\\microsoft.aspnetcore.cryptography.keyderivation.8.0.4.nupkg.sha512",
