@@ -29,9 +29,6 @@ namespace API.Autenticacao
         public static void AddCustomServices(this IServiceCollection app, IConfiguration configuration)
         {
             app.AddControllers();
-            var cultureInfo = new CultureInfo("pt-BR");
-            CultureInfo.DefaultThreadCurrentCulture = cultureInfo;
-            CultureInfo.DefaultThreadCurrentUICulture = cultureInfo;
 
             app.AddControllers().AddJsonOptions(options =>
             {
