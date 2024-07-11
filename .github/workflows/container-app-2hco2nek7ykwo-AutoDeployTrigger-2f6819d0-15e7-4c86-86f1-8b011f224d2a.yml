@@ -41,7 +41,6 @@ jobs:
           containerAppName: container-app-2hco2nek7ykwo
           resourceGroup: autenticacaoapib7c8
           imageToBuild: default/[parameters('containerAppName')]:${{ github.sha }}
-          _buildArgumentsKey_: |
-            _buildArgumentsValues_
+          
 
 
