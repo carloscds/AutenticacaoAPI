@@ -11,9 +11,11 @@ Apesar de usar o banco de dados MariaDB, você pode mudar facilmente para qualqu
 Execute os comandos
 
 ```powershell
- dotnet ef migrations Add CriarBano
+ dotnet ef migrations Add CriarBanco
  dotnet ef database update
  ```
+
+ Você pode também mudar o TipoBanco no appsettings.json para MYSQL ou SQLSERVER.
 
 #### Atualizado para .NET 8.0
 
